@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import * as S from './styles';
 
-const Buttons: React.FC = () => {
+const GestureHandlerButtons: React.FC = () => {
   const [actionText, setActionText] = useState(
     'Press a button to change the text!',
   );
@@ -38,4 +38,4 @@ const Buttons: React.FC = () => {
   );
 };
 
-export default Buttons;
+export default GestureHandlerButtons;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from '../../components/Buttons';
+import GestureHandlerButtons from '../../components/Buttons/GestureHandlerButtons';
 
 import * as S from './styles';
 
@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     <S.Container>
       <S.Title>Home</S.Title>
 
-      <Buttons />
+      <GestureHandlerButtons />
     </S.Container>
   );
 };
